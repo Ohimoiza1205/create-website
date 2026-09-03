@@ -276,3 +276,13 @@ section {
     font-size: 0.95rem;
     line-height: 1.7;
 }
+
+.education h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.education-item p {
+    margin-bottom: 0.5rem;
+    max-width: 700px;
+}
