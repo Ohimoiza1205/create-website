@@ -1,0 +1,131 @@
+:root {
+    --primary: #2196F3;
+    --primary-dark: #1976D2;
+    --text: #333;
+    --text-light: #666;
+    --bg: #ffffff;
+    --bg-alt: #f5f5f5;
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+    background: var(--bg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+    color: var(--primary);
+}
+
+section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.hero-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin-bottom: 0.75rem;
+}
+
+.hero-subtext {
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+}
+
+.hero-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-link {
+    padding: 0.6rem 1.2rem;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.hero-link:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+    max-width: 700px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-links {
+        justify-content: center;
+    }
+}
