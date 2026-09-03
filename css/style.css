@@ -286,3 +286,22 @@ section {
     margin-bottom: 0.5rem;
     max-width: 700px;
 }
+
+.awards h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.awards-list {
+    list-style: none;
+}
+
+.awards-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--bg-alt);
+    font-size: 0.95rem;
+}
+
+.awards-list li:last-child {
+    border-bottom: none;
+}
