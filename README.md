@@ -1,4 +1,4 @@
-# Ohinoyi Moiza — Personal Portfolio
+# Ohinoyi Moiza: Personal Portfolio
 
 A responsive personal portfolio showcasing my software engineering, AI and data experience, research, projects, education, and technical skills.
 
@@ -6,7 +6,7 @@ A responsive personal portfolio showcasing my software engineering, AI and data 
 
 ## Overview
 
-This portfolio brings together my work across software engineering, AI and data, research, and entrepreneurship. It was built from scratch with HTML, CSS, and JavaScript and deployed using GitHub Pages.
+This portfolio brings together my work across software engineering, AI and data, research, and entrepreneurship. Built from scratch with HTML, CSS, and JavaScript and deployed using GitHub Pages.
 
 The site includes:
 
@@ -41,11 +41,7 @@ create-website/
 - Git & GitHub
 - GitHub Pages
 
-No frontend frameworks or site builders were used.
-
 ## Development Workflow
-
-Development was completed incrementally using Git and GitHub rather than making changes directly on the main branch.
 
 For each major feature:
 
@@ -57,8 +53,6 @@ For each major feature:
 6. Open a pull request
 7. Review and merge into `main`
 8. Pull the updated `main` branch locally
-
-This approach keeps individual changes isolated and creates a clear, traceable development history.
 
 ## Deployment
 
