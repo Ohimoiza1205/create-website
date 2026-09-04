@@ -28,7 +28,7 @@ create-website/
 ├── js/
 │   └── main.js         # Navigation and page interactions
 ├── files/
-│   └── resume.pdf      # Downloadable resume
+│   └── Ohinoyi_Moiza_Resume.pdf   # Downloadable resume
 ├── images/             # Headshot, logos, and visual assets
 └── README.md           # Project documentation
 ```
