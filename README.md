@@ -1,82 +1,81 @@
-# GitHub Template Repository
+# Ohinoyi Moiza — Personal Portfolio
 
-Welcome to the GitHub template repository for the **courses (CS3361, CS3365)**! This template serves as a starting point for your first assignment of creating and deploying your portfolio. Follow the instructions below to download, customize, and push your work to your own GitHub repository.
+A responsive personal portfolio showcasing my software engineering, AI and data experience, research, projects, education, and technical skills.
 
----
+**Live Site:** https://ohimoiza1205.github.io/create-website/
 
-## 📂 Repository Structure
-The template includes the following structure:
+## Overview
 
-```
-📦create_website
- ┣ 📂files/         # Add your CV PDF inside this folder
- ┣ 📂images/        # Add your image inside this folder
- ┣ projects.html    # Update this file to add your own project details
- ┣ index.html       # Update this file for the main page of your portfolio
- ┣ 📜README.md      # Project instructions and information
- ┗ 📜LICENSE        # Licensing information
-```
+This portfolio brings together my work across software engineering, AI and data, research, and entrepreneurship. It was built from scratch with HTML, CSS, and JavaScript and deployed using GitHub Pages.
 
----
+The site includes:
 
-## 🚀 Getting Started
+- Professional experience
+- Undergraduate research
+- Selected software and AI projects
+- Education, awards, and certifications
+- Technical skills
+- Downloadable resume
+- Contact and professional links
 
-### 1. **Clone or Download This Repository**  
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/MaazAmjad/create_website.git
-```
-Alternatively, download it as a ZIP file and extract it.
+## Project Structure
 
----
-
-### 2. **Update Your Information**  
-Make the following changes:
-- Replace placeholder information (e.g., `Your Name`, `Project Title`) with your details.
-- Add your project code and any required files in the respective folders.
-
----
-
-### 3. **Create Your GitHub Repository**  
-1. Log in to your GitHub account.  
-2. Create a new repository (**public** unless otherwise specified).  
-3. Copy the repository URL for use in the next step.
-
----
-
-### 4. **Push Your Changes to Your Repository**  
-Run the following commands to upload your project to your new repository:
-
-```bash
-# Initialize a new Git repository
-git init
-
-# Stage all changes
-git add .
-
-# Commit your changes
-git commit -m "Initial commit"
-
-# Set the main branch
-git branch -M main
-
-# Add the remote repository
-git remote add origin <your-repo-url>
-
-# Push changes to GitHub
-git push -u origin main
+```text
+create-website/
+├── index.html          # Main portfolio page
+├── css/
+│   └── style.css       # Layout, components, and responsive styling
+├── js/
+│   └── main.js         # Navigation and page interactions
+├── files/
+│   └── resume.pdf      # Downloadable resume
+├── images/             # Headshot, logos, and visual assets
+└── README.md           # Project documentation
 ```
 
----
+## Built With
 
-## 📝 Submission Instructions  
-Once you have pushed your work to GitHub, submit the repository link as per the instructions provided in the course.
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+- GitHub Pages
 
----
+No frontend frameworks or site builders were used.
 
-### ⚖️ License  
-This project template is licensed under the [MIT License](LICENSE).
+## Development Workflow
 
----
+Development was completed incrementally using Git and GitHub rather than making changes directly on the main branch.
 
-Celebrate and enjoy your coding experience! 🚀
+For each major feature:
+
+1. Sync the local `main` branch
+2. Create a dedicated feature branch
+3. Implement and review the change locally
+4. Stage and commit the relevant files
+5. Push the branch to GitHub
+6. Open a pull request
+7. Review and merge into `main`
+8. Pull the updated `main` branch locally
+
+This approach keeps individual changes isolated and creates a clear, traceable development history.
+
+## Deployment
+
+The portfolio is deployed through GitHub Pages from the `main` branch.
+
+Changes merged into `main` are reflected on the live site after GitHub Pages completes deployment.
+
+## Course Context
+
+This project was developed as part of coursework at Texas Tech University while practicing Git, GitHub, branching, pull requests, version control, and web deployment.
+
+## Author
+
+**Ohinoyi Moiza**
+
+Computer Science & Mathematics  
+Texas Tech University
+
+- GitHub: https://github.com/Ohimoiza1205
+- Portfolio: https://ohimoiza1205.github.io/create-website/
